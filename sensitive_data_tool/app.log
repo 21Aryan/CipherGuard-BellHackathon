@@ -1,0 +1,746 @@
+2023-09-23 23:11:31,048 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:11:31,048 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:11:31,050 - INFO -  * Restarting with stat
+2023-09-23 23:11:31,335 - WARNING -  * Debugger is active!
+2023-09-23 23:11:31,336 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:12:01,580 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:01] "GET / HTTP/1.1" 200 -
+2023-09-23 23:12:04,062 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:04] "GET / HTTP/1.1" 200 -
+2023-09-23 23:12:13,562 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:12:13,569 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:13] "GET / HTTP/1.1" 200 -
+2023-09-23 23:12:19,585 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:19] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:12:19,678 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:19] "GET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-23 23:12:19,678 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:19] "GET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-23 23:12:19,720 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:19] "GET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-23 23:12:19,762 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:19] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:12:27,404 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:27] "GET / HTTP/1.1" 200 -
+2023-09-23 23:12:41,383 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:41] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:12:41,414 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:41] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:12:41,416 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:41] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:12:41,457 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:41] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:12:41,499 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:41] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:12:55,477 - INFO - 127.0.0.1 - - [23/Sep/2023 23:12:55] "GET / HTTP/1.1" 200 -
+2023-09-23 23:13:05,358 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:05] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:13:05,390 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:05] "GET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-23 23:13:05,392 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:05] "GET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-23 23:13:05,425 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:05] "GET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-23 23:13:05,472 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:05] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:13:14,560 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:14] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:13:14,593 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:13:14,594 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:13:14,614 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:13:14,667 - INFO - 127.0.0.1 - - [23/Sep/2023 23:13:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:14:23,219 - INFO - 127.0.0.1 - - [23/Sep/2023 23:14:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:14:23,228 - INFO - 127.0.0.1 - - [23/Sep/2023 23:14:23] "GET / HTTP/1.1" 200 -
+2023-09-23 23:15:27,746 - INFO - 127.0.0.1 - - [23/Sep/2023 23:15:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:15:27,751 - INFO - 127.0.0.1 - - [23/Sep/2023 23:15:27] "GET / HTTP/1.1" 200 -
+2023-09-23 23:16:38,686 - INFO - 127.0.0.1 - - [23/Sep/2023 23:16:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:16:38,692 - INFO - 127.0.0.1 - - [23/Sep/2023 23:16:38] "GET / HTTP/1.1" 200 -
+2023-09-23 23:16:42,877 - INFO - 127.0.0.1 - - [23/Sep/2023 23:16:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:16:42,886 - INFO - 127.0.0.1 - - [23/Sep/2023 23:16:42] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:01,284 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:20:01,331 - INFO -  * Restarting with stat
+2023-09-23 23:20:01,631 - WARNING -  * Debugger is active!
+2023-09-23 23:20:01,632 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:20:02,640 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:20:02,673 - INFO -  * Restarting with stat
+2023-09-23 23:20:03,011 - WARNING -  * Debugger is active!
+2023-09-23 23:20:03,013 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:20:21,214 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:20:21,214 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:20:21,215 - INFO -  * Restarting with stat
+2023-09-23 23:20:21,499 - WARNING -  * Debugger is active!
+2023-09-23 23:20:21,501 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:20:24,322 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:24] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:25,064 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:25] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:30,544 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:20:30,551 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:30] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:38,809 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:20:38,815 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:38] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:48,832 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:48] "GET / HTTP/1.1" 200 -
+2023-09-23 23:20:57,133 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:20:57,139 - INFO - 127.0.0.1 - - [23/Sep/2023 23:20:57] "GET / HTTP/1.1" 200 -
+2023-09-23 23:21:29,424 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:29] "GET / HTTP/1.1" 200 -
+2023-09-23 23:21:38,484 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:21:38,493 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:38] "GET / HTTP/1.1" 200 -
+2023-09-23 23:21:43,186 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:43] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:21:43,263 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:43] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:21:43,267 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:43] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:21:43,298 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:43] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:21:43,333 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:43] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:21:50,925 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:50] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:21:50,952 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:50] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:21:50,955 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:50] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:21:50,994 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:50] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:21:51,050 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:51] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:21:56,014 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:56] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:21:56,044 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:56] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:21:56,046 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:56] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:21:56,080 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:56] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:21:56,137 - INFO - 127.0.0.1 - - [23/Sep/2023 23:21:56] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:23:04,804 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:23:04,869 - INFO -  * Restarting with stat
+2023-09-23 23:23:05,184 - WARNING -  * Debugger is active!
+2023-09-23 23:23:05,185 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:23:07,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:23:07,751 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:23:07,752 - INFO -  * Restarting with stat
+2023-09-23 23:23:08,042 - WARNING -  * Debugger is active!
+2023-09-23 23:23:08,044 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:23:10,620 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:10] "GET / HTTP/1.1" 200 -
+2023-09-23 23:23:25,080 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:23:25,108 - INFO -  * Restarting with stat
+2023-09-23 23:23:25,407 - WARNING -  * Debugger is active!
+2023-09-23 23:23:25,410 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:23:29,957 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:23:29,957 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:23:29,959 - INFO -  * Restarting with stat
+2023-09-23 23:23:30,252 - WARNING -  * Debugger is active!
+2023-09-23 23:23:30,253 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:23:32,442 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:32] "GET / HTTP/1.1" 200 -
+2023-09-23 23:23:32,936 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:32] "GET / HTTP/1.1" 200 -
+2023-09-23 23:23:38,883 - INFO - User 'aryan' logged in.
+2023-09-23 23:23:38,884 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:23:38,892 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:38] "GET / HTTP/1.1" 200 -
+2023-09-23 23:23:42,536 - INFO - User 'aryan' logged out.
+2023-09-23 23:23:42,536 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:23:42,543 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:42] "GET / HTTP/1.1" 200 -
+2023-09-23 23:23:52,847 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:23:52,854 - INFO - 127.0.0.1 - - [23/Sep/2023 23:23:52] "GET / HTTP/1.1" 200 -
+2023-09-23 23:24:17,575 - INFO - 127.0.0.1 - - [23/Sep/2023 23:24:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:24:17,583 - INFO - 127.0.0.1 - - [23/Sep/2023 23:24:17] "GET / HTTP/1.1" 200 -
+2023-09-23 23:24:20,462 - INFO - 127.0.0.1 - - [23/Sep/2023 23:24:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:24:20,471 - INFO - 127.0.0.1 - - [23/Sep/2023 23:24:20] "GET / HTTP/1.1" 200 -
+2023-09-23 23:25:00,958 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:00] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:25:01,038 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:01] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:25:01,038 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:01] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:25:01,065 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:01] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:25:01,111 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:01] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:25:02,760 - INFO - 127.0.0.1 - - [23/Sep/2023 23:25:02] "GET / HTTP/1.1" 200 -
+2023-09-23 23:26:20,030 - INFO - 127.0.0.1 - - [23/Sep/2023 23:26:20] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:26:20,053 - INFO - 127.0.0.1 - - [23/Sep/2023 23:26:20] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:26:20,061 - INFO - 127.0.0.1 - - [23/Sep/2023 23:26:20] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:26:20,091 - INFO - 127.0.0.1 - - [23/Sep/2023 23:26:20] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:26:20,155 - INFO - 127.0.0.1 - - [23/Sep/2023 23:26:20] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:27:11,897 - INFO - 127.0.0.1 - - [23/Sep/2023 23:27:11] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:27:11,926 - INFO - 127.0.0.1 - - [23/Sep/2023 23:27:11] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:27:11,929 - INFO - 127.0.0.1 - - [23/Sep/2023 23:27:11] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:27:11,961 - INFO - 127.0.0.1 - - [23/Sep/2023 23:27:11] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:27:12,019 - INFO - 127.0.0.1 - - [23/Sep/2023 23:27:12] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:28:08,794 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:28:08,893 - INFO -  * Restarting with stat
+2023-09-23 23:28:09,219 - WARNING -  * Debugger is active!
+2023-09-23 23:28:09,220 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:28:11,883 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:11] "GET / HTTP/1.1" 200 -
+2023-09-23 23:28:14,650 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:14] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:28:14,735 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:28:14,735 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:28:14,763 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:28:14,805 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:14] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:28:22,184 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:28:22,184 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:28:22,185 - INFO -  * Restarting with stat
+2023-09-23 23:28:22,473 - WARNING -  * Debugger is active!
+2023-09-23 23:28:22,475 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:28:25,314 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:25] "GET / HTTP/1.1" 200 -
+2023-09-23 23:28:28,023 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:28] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:28:28,096 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:28] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:28:28,098 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:28] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:28:28,122 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:28] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:28:28,167 - INFO - 127.0.0.1 - - [23/Sep/2023 23:28:28] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:13,614 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:13] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:29:13,646 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:13] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:29:13,647 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:13] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:29:13,679 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:13] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:13,739 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:13] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:15,991 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:15] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:29:16,019 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:16] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:29:16,022 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:16] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:29:16,064 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:16] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:16,107 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:16] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:18,297 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:18] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:29:18,327 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:18] "GET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-23 23:29:18,328 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:18] "GET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-23 23:29:18,350 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:18] "GET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-23 23:29:18,408 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:18] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:29:27,521 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:29:27,530 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:27] "GET / HTTP/1.1" 200 -
+2023-09-23 23:29:32,035 - INFO - User 'aryan' logged in.
+2023-09-23 23:29:32,036 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:29:32,047 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:32] "GET / HTTP/1.1" 200 -
+2023-09-23 23:29:41,049 - INFO - User 'aryan' logged out.
+2023-09-23 23:29:41,050 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:29:41,059 - INFO - 127.0.0.1 - - [23/Sep/2023 23:29:41] "GET / HTTP/1.1" 200 -
+2023-09-23 23:30:05,163 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:05] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:30:05,195 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:05] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:30:05,198 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:05] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:30:05,223 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:05] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:30:05,293 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:05] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:30:15,191 - INFO - User 'aryan' logged in.
+2023-09-23 23:30:15,192 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:30:15,200 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:15] "GET / HTTP/1.1" 200 -
+2023-09-23 23:30:17,454 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:30:17,455 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:17] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:30:17,461 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:17] "GET / HTTP/1.1" 200 -
+2023-09-23 23:30:22,773 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:22,774 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:22] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:26,874 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:26,875 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:26] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:34,887 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:30:34,888 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:34] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:30:34,894 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:34] "GET / HTTP/1.1" 200 -
+2023-09-23 23:30:49,863 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:49,864 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:49] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:55,114 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:55,114 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:55] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:56,138 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:56,139 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:56] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:57,069 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:57,069 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:57] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:30:59,392 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:30:59,393 - INFO - 127.0.0.1 - - [23/Sep/2023 23:30:59] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:33:19,034 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:33:19,138 - INFO -  * Restarting with stat
+2023-09-23 23:33:19,419 - WARNING -  * Debugger is active!
+2023-09-23 23:33:19,421 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:33:33,212 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:33] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:33:33,287 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:33] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:33:33,287 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:33] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:33:33,324 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:33] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:33:33,455 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:33] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:33:39,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:33:39,797 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:33:39,798 - INFO -  * Restarting with stat
+2023-09-23 23:33:40,071 - WARNING -  * Debugger is active!
+2023-09-23 23:33:40,073 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:33:46,544 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:46] "GET / HTTP/1.1" 200 -
+2023-09-23 23:33:56,282 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:33:56,287 - INFO - 127.0.0.1 - - [23/Sep/2023 23:33:56] "GET / HTTP/1.1" 200 -
+2023-09-23 23:34:38,178 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:34:38,203 - INFO -  * Restarting with stat
+2023-09-23 23:34:38,500 - WARNING -  * Debugger is active!
+2023-09-23 23:34:38,501 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:34:42,827 - INFO - 127.0.0.1 - - [23/Sep/2023 23:34:42] "GET / HTTP/1.1" 200 -
+2023-09-23 23:34:43,596 - INFO - 127.0.0.1 - - [23/Sep/2023 23:34:43] "GET / HTTP/1.1" 200 -
+2023-09-23 23:34:48,623 - INFO - User 'aryan' logged in.
+2023-09-23 23:34:48,624 - INFO - 127.0.0.1 - - [23/Sep/2023 23:34:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:34:48,630 - INFO - 127.0.0.1 - - [23/Sep/2023 23:34:48] "GET / HTTP/1.1" 200 -
+2023-09-23 23:35:01,215 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:35:01,215 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:01] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:35:01,222 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:01] "GET / HTTP/1.1" 200 -
+2023-09-23 23:35:05,428 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:35:05,429 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:05] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:35:17,897 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:35:17,897 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:17] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:35:17,904 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:17] "GET / HTTP/1.1" 200 -
+2023-09-23 23:35:29,847 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:35:29,849 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:29] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:35:33,469 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:35:33,469 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:33] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:35:36,382 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:35:36,383 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:36] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:35:44,334 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:35:44,336 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:44] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:35:44,342 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:44] "GET / HTTP/1.1" 200 -
+2023-09-23 23:35:52,724 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:35:52,725 - INFO - 127.0.0.1 - - [23/Sep/2023 23:35:52] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:36:06,181 - INFO - User 'aryan' logged in.
+2023-09-23 23:36:06,182 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:36:06,188 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:06] "GET / HTTP/1.1" 200 -
+2023-09-23 23:36:11,461 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:36:11,461 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:11] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:36:11,471 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:11] "GET / HTTP/1.1" 200 -
+2023-09-23 23:36:14,013 - INFO - User 'aryan' logged out.
+2023-09-23 23:36:14,014 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:36:14,022 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:14] "GET / HTTP/1.1" 200 -
+2023-09-23 23:36:16,872 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:16] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:36:16,967 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:16] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:36:16,977 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:16] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:36:17,002 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:17] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:36:17,051 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:17] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:36:24,552 - INFO - User 'aryan' logged in.
+2023-09-23 23:36:24,553 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:36:24,561 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:24] "GET / HTTP/1.1" 200 -
+2023-09-23 23:36:26,186 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:36:26,189 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:26] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:36:35,238 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:36:35,240 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:35] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:36:35,245 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:35] "GET / HTTP/1.1" 200 -
+2023-09-23 23:36:45,329 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:45] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-23 23:36:45,358 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:45] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:36:45,360 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:45] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:36:45,387 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:45] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:36:45,451 - INFO - 127.0.0.1 - - [23/Sep/2023 23:36:45] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:37:04,823 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:04] "GET / HTTP/1.1" 200 -
+2023-09-23 23:37:06,599 - INFO - User 'aryan' logged out.
+2023-09-23 23:37:06,599 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:37:06,607 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:06] "GET / HTTP/1.1" 200 -
+2023-09-23 23:37:08,006 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:08] "GET / HTTP/1.1" 200 -
+2023-09-23 23:37:15,388 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:15] "GET / HTTP/1.1" 200 -
+2023-09-23 23:37:46,367 - INFO - User 'aryan' logged in.
+2023-09-23 23:37:46,368 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:37:46,373 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:46] "GET / HTTP/1.1" 200 -
+2023-09-23 23:37:52,472 - INFO - User 'aryan' logged out.
+2023-09-23 23:37:52,472 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:37:52,482 - INFO - 127.0.0.1 - - [23/Sep/2023 23:37:52] "GET / HTTP/1.1" 200 -
+2023-09-23 23:38:05,453 - INFO - 127.0.0.1 - - [23/Sep/2023 23:38:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:38:05,462 - INFO - 127.0.0.1 - - [23/Sep/2023 23:38:05] "GET / HTTP/1.1" 200 -
+2023-09-23 23:38:25,859 - INFO - User 'aryan' logged in.
+2023-09-23 23:38:25,860 - INFO - 127.0.0.1 - - [23/Sep/2023 23:38:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:38:25,867 - INFO - 127.0.0.1 - - [23/Sep/2023 23:38:25] "GET / HTTP/1.1" 200 -
+2023-09-23 23:39:05,104 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:39:05,104 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:05] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:39:05,118 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:05] "GET / HTTP/1.1" 200 -
+2023-09-23 23:39:31,909 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:39:31,911 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:31] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:39:50,860 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:39:50,860 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:50] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:39:54,031 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:54] "GET / HTTP/1.1" 200 -
+2023-09-23 23:39:56,213 - INFO - User 'aryan' logged out.
+2023-09-23 23:39:56,213 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:39:56,222 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:56] "GET / HTTP/1.1" 200 -
+2023-09-23 23:39:59,604 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:59] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:39:59,639 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:59] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:39:59,640 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:59] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:39:59,678 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:59] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:39:59,742 - INFO - 127.0.0.1 - - [23/Sep/2023 23:39:59] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:40:04,849 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:04] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:40:04,892 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:04] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:40:04,893 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:04] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:40:04,934 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:04] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:40:05,001 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:05] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:40:14,601 - INFO - User 'aryan' logged in.
+2023-09-23 23:40:14,602 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:40:14,609 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:14] "GET / HTTP/1.1" 200 -
+2023-09-23 23:40:16,292 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:40:16,293 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:16] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:40:24,645 - INFO - User 'aryan' logged in.
+2023-09-23 23:40:24,645 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:40:24,656 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:24] "GET / HTTP/1.1" 200 -
+2023-09-23 23:40:31,093 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:40:31,094 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:31] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:40:31,104 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:31] "GET / HTTP/1.1" 200 -
+2023-09-23 23:40:36,476 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:40:36,477 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:36] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:40:43,733 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:40:43,733 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:43] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:40:54,160 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:40:54,161 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:54] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:40:58,336 - INFO - User 'aryan' logged in.
+2023-09-23 23:40:58,337 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:40:58,343 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:58] "GET / HTTP/1.1" 200 -
+2023-09-23 23:40:59,338 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:40:59,339 - INFO - 127.0.0.1 - - [23/Sep/2023 23:40:59] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:43:13,413 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:43:13,487 - INFO -  * Restarting with stat
+2023-09-23 23:43:13,863 - WARNING -  * Debugger is active!
+2023-09-23 23:43:13,865 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:43:17,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:43:17,679 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:43:17,680 - INFO -  * Restarting with stat
+2023-09-23 23:43:17,992 - WARNING -  * Debugger is active!
+2023-09-23 23:43:17,994 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:43:22,508 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:22] "GET / HTTP/1.1" 200 -
+2023-09-23 23:43:24,028 - INFO - User 'aryan' logged out.
+2023-09-23 23:43:24,029 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-23 23:43:24,037 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:24] "GET / HTTP/1.1" 200 -
+2023-09-23 23:43:27,406 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:43:27,413 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:27] "GET / HTTP/1.1" 200 -
+2023-09-23 23:43:32,257 - INFO - User 'aryan' logged in.
+2023-09-23 23:43:32,258 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:43:32,265 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:32] "GET / HTTP/1.1" 200 -
+2023-09-23 23:43:38,244 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:43:38,245 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:38] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:43:38,252 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:38] "GET / HTTP/1.1" 200 -
+2023-09-23 23:43:50,160 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:43:50,161 - INFO - 127.0.0.1 - - [23/Sep/2023 23:43:50] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:01,007 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:44:01,007 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:01] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:44:01,014 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:01] "GET / HTTP/1.1" 200 -
+2023-09-23 23:44:06,724 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:06,724 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:06] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:17,321 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:17,321 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:17] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:26,126 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:26,126 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:26] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:34,221 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:34,222 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:34] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:36,055 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:36,056 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:36] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:44:43,164 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:44:43,165 - INFO - 127.0.0.1 - - [23/Sep/2023 23:44:43] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:45:08,672 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:45:08,673 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:08] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:45:12,933 - INFO - User 'aryan' logged in.
+2023-09-23 23:45:12,933 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:45:12,941 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:12] "GET / HTTP/1.1" 200 -
+2023-09-23 23:45:34,005 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:45:34,007 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:34] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:45:34,017 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:34] "GET / HTTP/1.1" 200 -
+2023-09-23 23:45:50,916 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:45:50,916 - INFO - 127.0.0.1 - - [23/Sep/2023 23:45:50] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:46:00,464 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:46:00,464 - INFO - 127.0.0.1 - - [23/Sep/2023 23:46:00] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:46:08,291 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:46:08,291 - INFO - 127.0.0.1 - - [23/Sep/2023 23:46:08] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:46:17,403 - INFO - User 'aryan' decrypted data.
+2023-09-23 23:46:17,405 - INFO - 127.0.0.1 - - [23/Sep/2023 23:46:17] "POST /decrypt HTTP/1.1" 200 -
+2023-09-23 23:51:12,829 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:51:12,898 - INFO -  * Restarting with stat
+2023-09-23 23:51:58,130 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:51:58,130 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:51:58,132 - INFO -  * Restarting with stat
+2023-09-23 23:51:58,439 - WARNING -  * Debugger is active!
+2023-09-23 23:51:58,440 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:52:04,519 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-23 23:52:04,601 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:52:04,602 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:52:04,652 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:52:04,795 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:52:36,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:52:36,815 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:52:36,816 - INFO -  * Restarting with stat
+2023-09-23 23:52:37,140 - WARNING -  * Debugger is active!
+2023-09-23 23:52:37,141 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:52:39,033 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:39] "GET / HTTP/1.1" 200 -
+2023-09-23 23:52:39,792 - INFO - 127.0.0.1 - - [23/Sep/2023 23:52:39] "GET / HTTP/1.1" 200 -
+2023-09-23 23:53:00,073 - INFO - 127.0.0.1 - - [23/Sep/2023 23:53:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:53:00,082 - INFO - 127.0.0.1 - - [23/Sep/2023 23:53:00] "GET / HTTP/1.1" 200 -
+2023-09-23 23:53:07,011 - INFO - 127.0.0.1 - - [23/Sep/2023 23:53:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:53:07,016 - INFO - 127.0.0.1 - - [23/Sep/2023 23:53:07] "GET / HTTP/1.1" 200 -
+2023-09-23 23:54:06,302 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:54:06,357 - INFO -  * Restarting with stat
+2023-09-23 23:54:06,697 - WARNING -  * Debugger is active!
+2023-09-23 23:54:06,698 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:54:08,557 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:08] "GET / HTTP/1.1" 200 -
+2023-09-23 23:54:14,251 - INFO - User 'aryan' logged in.
+2023-09-23 23:54:14,253 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:54:14,259 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:14] "GET / HTTP/1.1" 200 -
+2023-09-23 23:54:25,129 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:54:25,130 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:25] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:54:25,136 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:25] "GET / HTTP/1.1" 200 -
+2023-09-23 23:54:52,676 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:54:52,678 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:52] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:54:52,689 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:52] "GET / HTTP/1.1" 200 -
+2023-09-23 23:54:59,982 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:54:59,985 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:59] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:54:59,992 - INFO - 127.0.0.1 - - [23/Sep/2023 23:54:59] "GET / HTTP/1.1" 200 -
+2023-09-23 23:55:14,008 - INFO - User 'aryan' encrypted data.
+2023-09-23 23:55:14,008 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:14] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-23 23:55:14,015 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:14] "GET / HTTP/1.1" 200 -
+2023-09-23 23:55:19,623 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:19] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:55:19,713 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:55:19,716 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:55:19,749 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:55:19,805 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:55:23,731 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:23] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-23 23:55:23,763 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:23] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-23 23:55:23,764 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:23] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-23 23:55:23,779 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:23] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:55:23,858 - INFO - 127.0.0.1 - - [23/Sep/2023 23:55:23] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-23 23:56:51,029 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:56:51,085 - INFO -  * Restarting with stat
+2023-09-23 23:56:51,397 - WARNING -  * Debugger is active!
+2023-09-23 23:56:51,399 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:57:20,460 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:57:20,500 - INFO -  * Restarting with stat
+2023-09-23 23:57:20,819 - WARNING -  * Debugger is active!
+2023-09-23 23:57:20,821 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:57:50,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:57:50,451 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:57:50,452 - INFO -  * Restarting with stat
+2023-09-23 23:57:50,725 - WARNING -  * Debugger is active!
+2023-09-23 23:57:50,726 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:57:53,043 - INFO - 127.0.0.1 - - [23/Sep/2023 23:57:53] "GET / HTTP/1.1" 200 -
+2023-09-23 23:57:57,901 - INFO - 127.0.0.1 - - [23/Sep/2023 23:57:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:57:57,910 - INFO - 127.0.0.1 - - [23/Sep/2023 23:57:57] "GET / HTTP/1.1" 200 -
+2023-09-23 23:59:13,880 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:59:13,950 - INFO -  * Restarting with stat
+2023-09-23 23:59:14,330 - WARNING -  * Debugger is active!
+2023-09-23 23:59:14,332 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:59:18,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-23 23:59:18,312 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-23 23:59:18,313 - INFO -  * Restarting with stat
+2023-09-23 23:59:18,629 - WARNING -  * Debugger is active!
+2023-09-23 23:59:18,631 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:59:20,637 - INFO - 127.0.0.1 - - [23/Sep/2023 23:59:20] "GET / HTTP/1.1" 200 -
+2023-09-23 23:59:28,243 - INFO - 127.0.0.1 - - [23/Sep/2023 23:59:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-23 23:59:28,249 - INFO - 127.0.0.1 - - [23/Sep/2023 23:59:28] "GET / HTTP/1.1" 200 -
+2023-09-23 23:59:55,705 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-23 23:59:55,756 - INFO -  * Restarting with stat
+2023-09-23 23:59:56,093 - WARNING -  * Debugger is active!
+2023-09-23 23:59:56,095 - INFO -  * Debugger PIN: 140-227-438
+2023-09-23 23:59:59,403 - INFO - 127.0.0.1 - - [23/Sep/2023 23:59:59] "GET / HTTP/1.1" 200 -
+2023-09-24 00:00:05,935 - INFO - User 'aryan' logged in.
+2023-09-24 00:00:05,936 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:00:05,941 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:05] "GET / HTTP/1.1" 200 -
+2023-09-24 00:00:16,488 - INFO - User 'aryan' encrypted data.
+2023-09-24 00:00:16,489 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:16] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:00:16,496 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:16] "GET / HTTP/1.1" 200 -
+2023-09-24 00:00:25,596 - INFO - User 'aryan' decrypted data.
+2023-09-24 00:00:25,596 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:25] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:00:45,751 - INFO - User 'aryan' encrypted data.
+2023-09-24 00:00:45,754 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:45] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:00:45,760 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:45] "GET / HTTP/1.1" 200 -
+2023-09-24 00:00:53,970 - INFO - User 'aryan' decrypted data.
+2023-09-24 00:00:53,971 - INFO - 127.0.0.1 - - [24/Sep/2023 00:00:53] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:01:01,016 - INFO - User 'aryan' decrypted data.
+2023-09-24 00:01:01,016 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:01] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:01:51,139 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:51] "[35m[1mPOST /store_password HTTP/1.1[0m" 500 -
+2023-09-24 00:01:51,235 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:51] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-24 00:01:51,236 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:51] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-24 00:01:51,266 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:51] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:01:51,322 - INFO - 127.0.0.1 - - [24/Sep/2023 00:01:51] "[36mGET /store_password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:06:48,237 - INFO - User 'aryan' encrypted data.
+2023-09-24 00:06:48,238 - INFO - 127.0.0.1 - - [24/Sep/2023 00:06:48] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:06:48,257 - INFO - 127.0.0.1 - - [24/Sep/2023 00:06:48] "GET / HTTP/1.1" 200 -
+2023-09-24 00:09:20,138 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:09:20,204 - INFO -  * Restarting with stat
+2023-09-24 00:09:20,586 - WARNING -  * Debugger is active!
+2023-09-24 00:09:20,588 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:09:28,759 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-24 00:09:28,759 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-24 00:09:28,761 - INFO -  * Restarting with stat
+2023-09-24 00:09:29,042 - WARNING -  * Debugger is active!
+2023-09-24 00:09:29,044 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:09:38,502 - INFO - User 'aryan' logged out.
+2023-09-24 00:09:38,504 - INFO - 127.0.0.1 - - [24/Sep/2023 00:09:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:09:38,527 - INFO - 127.0.0.1 - - [24/Sep/2023 00:09:38] "GET / HTTP/1.1" 200 -
+2023-09-24 00:09:45,322 - INFO - User 'karan' logged in.
+2023-09-24 00:09:45,323 - INFO - 127.0.0.1 - - [24/Sep/2023 00:09:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:09:45,329 - INFO - 127.0.0.1 - - [24/Sep/2023 00:09:45] "GET / HTTP/1.1" 200 -
+2023-09-24 00:09:58,104 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:09:58,135 - INFO -  * Restarting with stat
+2023-09-24 00:09:58,460 - WARNING -  * Debugger is active!
+2023-09-24 00:09:58,462 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:10:02,766 - INFO - 127.0.0.1 - - [24/Sep/2023 00:10:02] "GET / HTTP/1.1" 200 -
+2023-09-24 00:10:03,527 - INFO - 127.0.0.1 - - [24/Sep/2023 00:10:03] "GET / HTTP/1.1" 200 -
+2023-09-24 00:10:10,963 - INFO - User 'karan' logged in.
+2023-09-24 00:10:10,964 - INFO - 127.0.0.1 - - [24/Sep/2023 00:10:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:10:10,973 - INFO - 127.0.0.1 - - [24/Sep/2023 00:10:10] "GET / HTTP/1.1" 200 -
+2023-09-24 00:11:00,543 - INFO - User 'karan' encrypted data.
+2023-09-24 00:11:00,544 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:00] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:11:00,552 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:00] "GET / HTTP/1.1" 200 -
+2023-09-24 00:11:11,288 - INFO - User 'karan' decrypted data.
+2023-09-24 00:11:11,288 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:11] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:11:19,003 - INFO - User 'karan' encrypted data.
+2023-09-24 00:11:19,005 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:19] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:11:19,011 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:19] "GET / HTTP/1.1" 200 -
+2023-09-24 00:11:34,314 - INFO - User 'karan' decrypted data.
+2023-09-24 00:11:34,315 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:34] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:11:41,671 - INFO - User 'karan' decrypted data.
+2023-09-24 00:11:41,671 - INFO - 127.0.0.1 - - [24/Sep/2023 00:11:41] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:14:46,449 - INFO - User 'karan' decrypted data.
+2023-09-24 00:14:46,453 - INFO - 127.0.0.1 - - [24/Sep/2023 00:14:46] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:15:11,103 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:15:11,155 - INFO -  * Restarting with stat
+2023-09-24 00:15:11,478 - WARNING -  * Debugger is active!
+2023-09-24 00:15:11,480 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:18:05,815 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:18:05,860 - INFO -  * Restarting with stat
+2023-09-24 00:18:06,147 - WARNING -  * Debugger is active!
+2023-09-24 00:18:06,149 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:18:10,413 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:10] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-24 00:18:10,493 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:10] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-24 00:18:10,494 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:10] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-24 00:18:10,536 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:10] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:18:10,683 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:10] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:18:15,941 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:15] "GET / HTTP/1.1" 200 -
+2023-09-24 00:18:23,611 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:18:23,623 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:23] "GET / HTTP/1.1" 200 -
+2023-09-24 00:18:30,402 - INFO - User 'karan' logged in.
+2023-09-24 00:18:30,403 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:18:30,410 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:30] "GET / HTTP/1.1" 200 -
+2023-09-24 00:18:35,813 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:35] "[35m[1mPOST /encrypt HTTP/1.1[0m" 500 -
+2023-09-24 00:18:35,858 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:35] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-24 00:18:35,858 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:35] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-24 00:18:35,882 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:35] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:18:35,955 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:35] "[36mGET /encrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:18:50,397 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:50] "GET / HTTP/1.1" 200 -
+2023-09-24 00:18:53,093 - INFO - User 'karan' encrypted data.
+2023-09-24 00:18:53,094 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:53] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:18:53,099 - INFO - 127.0.0.1 - - [24/Sep/2023 00:18:53] "GET / HTTP/1.1" 200 -
+2023-09-24 00:19:05,548 - INFO - User 'karan' logged out.
+2023-09-24 00:19:05,549 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:19:05,559 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:05] "GET / HTTP/1.1" 200 -
+2023-09-24 00:19:19,812 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:19] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2023-09-24 00:19:19,843 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-24 00:19:19,853 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-24 00:19:19,883 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:19:19,962 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:19] "[36mGET /decrypt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-24 00:19:47,438 - INFO - User 'karan' logged in.
+2023-09-24 00:19:47,439 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:19:47,446 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:47] "GET / HTTP/1.1" 200 -
+2023-09-24 00:19:56,137 - INFO - User 'karan' decrypted data.
+2023-09-24 00:19:56,137 - INFO - 127.0.0.1 - - [24/Sep/2023 00:19:56] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:20:02,910 - INFO - User 'karan' encrypted data.
+2023-09-24 00:20:02,911 - INFO - 127.0.0.1 - - [24/Sep/2023 00:20:02] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:20:02,917 - INFO - 127.0.0.1 - - [24/Sep/2023 00:20:02] "GET / HTTP/1.1" 200 -
+2023-09-24 00:20:30,424 - INFO - User 'karan' decrypted data.
+2023-09-24 00:20:30,424 - INFO - 127.0.0.1 - - [24/Sep/2023 00:20:30] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:20:59,133 - INFO - User 'karan' decrypted data.
+2023-09-24 00:20:59,134 - INFO - 127.0.0.1 - - [24/Sep/2023 00:20:59] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:21:17,543 - INFO - User 'karan' decrypted data.
+2023-09-24 00:21:17,543 - INFO - 127.0.0.1 - - [24/Sep/2023 00:21:17] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:22:09,536 - INFO - 127.0.0.1 - - [24/Sep/2023 00:22:09] "GET / HTTP/1.1" 200 -
+2023-09-24 00:22:13,499 - INFO - User 'karan' decrypted data.
+2023-09-24 00:22:13,500 - INFO - 127.0.0.1 - - [24/Sep/2023 00:22:13] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:22:37,027 - INFO - User 'karan' logged in.
+2023-09-24 00:22:37,028 - INFO - 127.0.0.1 - - [24/Sep/2023 00:22:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:22:37,034 - INFO - 127.0.0.1 - - [24/Sep/2023 00:22:37] "GET / HTTP/1.1" 200 -
+2023-09-24 00:23:04,714 - INFO - User 'karan' encrypted data.
+2023-09-24 00:23:04,716 - INFO - 127.0.0.1 - - [24/Sep/2023 00:23:04] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:23:04,722 - INFO - 127.0.0.1 - - [24/Sep/2023 00:23:04] "GET / HTTP/1.1" 200 -
+2023-09-24 00:23:15,186 - INFO - User 'karan' decrypted data.
+2023-09-24 00:23:15,187 - INFO - 127.0.0.1 - - [24/Sep/2023 00:23:15] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:23:22,751 - INFO - User 'karan' decrypted data.
+2023-09-24 00:23:22,752 - INFO - 127.0.0.1 - - [24/Sep/2023 00:23:22] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:25:14,396 - INFO - User 'karan' decrypted data.
+2023-09-24 00:25:14,397 - INFO - 127.0.0.1 - - [24/Sep/2023 00:25:14] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:25:45,911 - INFO - 127.0.0.1 - - [24/Sep/2023 00:25:45] "GET / HTTP/1.1" 200 -
+2023-09-24 00:26:29,811 - INFO - User 'karan' encrypted data.
+2023-09-24 00:26:29,813 - INFO - 127.0.0.1 - - [24/Sep/2023 00:26:29] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 00:26:29,830 - INFO - 127.0.0.1 - - [24/Sep/2023 00:26:29] "GET / HTTP/1.1" 200 -
+2023-09-24 00:26:58,646 - INFO - User 'karan' decrypted data.
+2023-09-24 00:26:58,647 - INFO - 127.0.0.1 - - [24/Sep/2023 00:26:58] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:27:07,826 - INFO - 127.0.0.1 - - [24/Sep/2023 00:27:07] "GET / HTTP/1.1" 200 -
+2023-09-24 00:27:25,697 - INFO - User 'karan' decrypted data.
+2023-09-24 00:27:25,697 - INFO - 127.0.0.1 - - [24/Sep/2023 00:27:25] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:28:03,667 - INFO - User 'karan' decrypted data.
+2023-09-24 00:28:03,668 - INFO - 127.0.0.1 - - [24/Sep/2023 00:28:03] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 00:34:24,088 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:34:24,155 - INFO -  * Restarting with stat
+2023-09-24 00:34:24,483 - WARNING -  * Debugger is active!
+2023-09-24 00:34:24,485 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:36:19,722 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:36:19,772 - INFO -  * Restarting with stat
+2023-09-24 00:36:20,136 - WARNING -  * Debugger is active!
+2023-09-24 00:36:20,138 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:36:24,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-24 00:36:24,024 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-24 00:36:24,025 - INFO -  * Restarting with stat
+2023-09-24 00:36:24,296 - WARNING -  * Debugger is active!
+2023-09-24 00:36:24,298 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:36:29,145 - INFO - 127.0.0.1 - - [24/Sep/2023 00:36:29] "GET / HTTP/1.1" 200 -
+2023-09-24 00:36:30,773 - INFO - User 'karan' logged out.
+2023-09-24 00:36:30,774 - INFO - 127.0.0.1 - - [24/Sep/2023 00:36:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:36:30,780 - INFO - 127.0.0.1 - - [24/Sep/2023 00:36:30] "GET / HTTP/1.1" 200 -
+2023-09-24 00:36:39,097 - INFO - User 'karan' logged in from IP address 127.0.0.1.
+2023-09-24 00:36:39,098 - INFO - 127.0.0.1 - - [24/Sep/2023 00:36:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:36:39,103 - INFO - 127.0.0.1 - - [24/Sep/2023 00:36:39] "GET / HTTP/1.1" 200 -
+2023-09-24 00:39:11,637 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:39:11,678 - INFO -  * Restarting with stat
+2023-09-24 00:39:11,995 - WARNING -  * Debugger is active!
+2023-09-24 00:39:11,997 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:39:15,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-24 00:39:15,727 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-24 00:39:15,728 - INFO -  * Restarting with stat
+2023-09-24 00:39:15,991 - WARNING -  * Debugger is active!
+2023-09-24 00:39:15,992 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:39:19,903 - INFO - 127.0.0.1 - - [24/Sep/2023 00:39:19] "GET / HTTP/1.1" 200 -
+2023-09-24 00:39:22,194 - INFO - User 'karan' logged out.
+2023-09-24 00:39:22,194 - INFO - 127.0.0.1 - - [24/Sep/2023 00:39:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:39:22,201 - INFO - 127.0.0.1 - - [24/Sep/2023 00:39:22] "GET / HTTP/1.1" 200 -
+2023-09-24 00:39:28,332 - INFO - User 'karan' logged in from IP address 127.0.0.1.
+2023-09-24 00:39:28,333 - INFO - 127.0.0.1 - - [24/Sep/2023 00:39:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:39:28,339 - INFO - 127.0.0.1 - - [24/Sep/2023 00:39:28] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:30,979 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:30] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:31,748 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:31] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:32,429 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:32] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:33,684 - INFO - User 'karan' logged out.
+2023-09-24 00:41:33,685 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:41:33,692 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:33] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:42,738 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-24 00:41:42,738 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-24 00:41:42,739 - INFO -  * Restarting with stat
+2023-09-24 00:41:43,046 - WARNING -  * Debugger is active!
+2023-09-24 00:41:43,047 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:41:44,600 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:44] "GET / HTTP/1.1" 200 -
+2023-09-24 00:41:50,301 - INFO - User 'karan' logged in from IP address 127.0.0.1.
+2023-09-24 00:41:50,301 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:41:50,309 - INFO - 127.0.0.1 - - [24/Sep/2023 00:41:50] "GET / HTTP/1.1" 200 -
+2023-09-24 00:48:55,034 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:48:55,108 - INFO -  * Restarting with stat
+2023-09-24 00:48:55,533 - WARNING -  * Debugger is active!
+2023-09-24 00:48:55,534 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:50:09,704 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 00:50:09,750 - INFO -  * Restarting with stat
+2023-09-24 00:50:10,195 - WARNING -  * Debugger is active!
+2023-09-24 00:50:10,198 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:50:14,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-24 00:50:14,608 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-24 00:50:14,610 - INFO -  * Restarting with stat
+2023-09-24 00:50:14,935 - WARNING -  * Debugger is active!
+2023-09-24 00:50:14,937 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 00:50:20,920 - INFO - 127.0.0.1 - - [24/Sep/2023 00:50:20] "GET / HTTP/1.1" 200 -
+2023-09-24 00:50:22,997 - INFO - User 'karan' logged out.
+2023-09-24 00:50:22,998 - INFO - 127.0.0.1 - - [24/Sep/2023 00:50:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 00:50:23,003 - INFO - 127.0.0.1 - - [24/Sep/2023 00:50:23] "GET / HTTP/1.1" 200 -
+2023-09-24 00:50:28,703 - INFO - User 'karan' logged in from IP address 127.0.0.1. Geolocation data: {'ip': '127.0.0.1', 'bogon': True}
+2023-09-24 00:50:28,703 - INFO - 127.0.0.1 - - [24/Sep/2023 00:50:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 00:50:28,711 - INFO - 127.0.0.1 - - [24/Sep/2023 00:50:28] "GET / HTTP/1.1" 200 -
+2023-09-24 01:06:42,908 - INFO - 127.0.0.1 - - [24/Sep/2023 01:06:42] "GET / HTTP/1.1" 200 -
+2023-09-24 01:08:22,785 - INFO - 127.0.0.1 - - [24/Sep/2023 01:08:22] "GET / HTTP/1.1" 200 -
+2023-09-24 01:08:27,037 - INFO - 127.0.0.1 - - [24/Sep/2023 01:08:27] "GET / HTTP/1.1" 200 -
+2023-09-24 01:08:27,819 - INFO - 127.0.0.1 - - [24/Sep/2023 01:08:27] "GET / HTTP/1.1" 200 -
+2023-09-24 01:09:10,620 - INFO - 127.0.0.1 - - [24/Sep/2023 01:09:10] "GET / HTTP/1.1" 200 -
+2023-09-24 01:09:13,656 - INFO - 127.0.0.1 - - [24/Sep/2023 01:09:13] "GET / HTTP/1.1" 200 -
+2023-09-24 01:09:15,433 - INFO - 127.0.0.1 - - [24/Sep/2023 01:09:15] "GET / HTTP/1.1" 200 -
+2023-09-24 01:10:09,284 - INFO - 127.0.0.1 - - [24/Sep/2023 01:10:09] "GET / HTTP/1.1" 200 -
+2023-09-24 01:10:10,575 - INFO - 127.0.0.1 - - [24/Sep/2023 01:10:10] "GET / HTTP/1.1" 200 -
+2023-09-24 01:10:11,257 - INFO - 127.0.0.1 - - [24/Sep/2023 01:10:11] "GET / HTTP/1.1" 200 -
+2023-09-24 01:10:12,081 - INFO - 127.0.0.1 - - [24/Sep/2023 01:10:12] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:05,890 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:05] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:07,215 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:07] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:07,894 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:07] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:11,720 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:11] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:12,288 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:12] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:12,480 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:12] "GET / HTTP/1.1" 200 -
+2023-09-24 01:11:29,843 - INFO - 127.0.0.1 - - [24/Sep/2023 01:11:29] "GET / HTTP/1.1" 200 -
+2023-09-24 01:12:28,020 - INFO - 127.0.0.1 - - [24/Sep/2023 01:12:28] "GET / HTTP/1.1" 200 -
+2023-09-24 01:12:29,258 - INFO - 127.0.0.1 - - [24/Sep/2023 01:12:29] "GET / HTTP/1.1" 200 -
+2023-09-24 01:13:41,685 - INFO - 127.0.0.1 - - [24/Sep/2023 01:13:41] "GET / HTTP/1.1" 200 -
+2023-09-24 01:13:52,391 - INFO - User 'karan' logged out.
+2023-09-24 01:13:52,392 - INFO - 127.0.0.1 - - [24/Sep/2023 01:13:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-09-24 01:13:52,400 - INFO - 127.0.0.1 - - [24/Sep/2023 01:13:52] "GET / HTTP/1.1" 200 -
+2023-09-24 01:13:59,383 - INFO - 127.0.0.1 - - [24/Sep/2023 01:13:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 01:13:59,393 - INFO - 127.0.0.1 - - [24/Sep/2023 01:13:59] "GET / HTTP/1.1" 200 -
+2023-09-24 01:14:26,480 - INFO - User 'karan' logged in from IP address 127.0.0.1. Geolocation data: {'ip': '127.0.0.1', 'bogon': True}
+2023-09-24 01:14:26,481 - INFO - 127.0.0.1 - - [24/Sep/2023 01:14:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-09-24 01:14:26,486 - INFO - 127.0.0.1 - - [24/Sep/2023 01:14:26] "GET / HTTP/1.1" 200 -
+2023-09-24 01:16:49,904 - INFO - User 'karan' encrypted data.
+2023-09-24 01:16:49,904 - INFO - 127.0.0.1 - - [24/Sep/2023 01:16:49] "[32mPOST /encrypt HTTP/1.1[0m" 302 -
+2023-09-24 01:16:49,910 - INFO - 127.0.0.1 - - [24/Sep/2023 01:16:49] "GET / HTTP/1.1" 200 -
+2023-09-24 01:17:07,509 - INFO - User 'karan' decrypted data.
+2023-09-24 01:17:07,510 - INFO - 127.0.0.1 - - [24/Sep/2023 01:17:07] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 01:18:46,574 - INFO - User 'karan' decrypted data.
+2023-09-24 01:18:46,574 - INFO - 127.0.0.1 - - [24/Sep/2023 01:18:46] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 01:19:26,762 - INFO - User 'karan' decrypted data.
+2023-09-24 01:19:26,763 - INFO - 127.0.0.1 - - [24/Sep/2023 01:19:26] "POST /decrypt HTTP/1.1" 200 -
+2023-09-24 01:30:53,812 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 01:30:53,872 - INFO -  * Restarting with stat
+2023-09-24 01:30:54,535 - WARNING -  * Debugger is active!
+2023-09-24 01:30:54,537 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 01:30:59,554 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 01:30:59,599 - INFO -  * Restarting with stat
+2023-09-24 01:31:00,040 - WARNING -  * Debugger is active!
+2023-09-24 01:31:00,041 - INFO -  * Debugger PIN: 140-227-438
+2023-09-24 01:31:04,058 - INFO -  * Detected change in 'A:\\sensitive_data_tool\\app.py', reloading
+2023-09-24 01:31:04,115 - INFO -  * Restarting with stat
+2023-09-24 01:31:04,526 - WARNING -  * Debugger is active!
+2023-09-24 01:31:04,528 - INFO -  * Debugger PIN: 140-227-438

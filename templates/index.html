@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CipherGuard- Encrypt with precision, Decode with confidence</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header-title {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .tagline {
+            font-size: 18px;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #007bff;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">CipherGuard</h1>
+        <p class="tagline">Encrypt with precision, Decode with confidence</p>
+    </header>
+
+    <div class="container">
+        {% if username %}
+            <p>Welcome, {{ username }}!</p>
+            <form action="/logout" method="GET">
+                <input type="submit" value="Logout">
+            </form>
+        {% else %}
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        {% endif %}
+
+        <h2>Encryption and Decryption</h2>
+        <form action="/encrypt" method="POST">
+            <label for="data">Data to Encrypt:</label>
+            <input type="text" id="data" name="data" required>
+            <br>
+            <input type="submit" value="Encrypt Data">
+        </form>
+
+        <!-- Add an input field for the encrypted data -->
+        <form action="/decrypt" method="POST">
+            <label for="encrypted_data">Encrypted Data:</label>
+            <input type="text" id="encrypted_data" name="encrypted_data" required>
+            <br>
+            <input type="submit" value="Decrypt Data">
+        </form>
+
+        {% if decrypted_data %}
+            <h3>Decrypted Data:</h3>
+            <p>{{ decrypted_data }}</p>
+        {% endif %}
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <ul>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </div>
+</body>
+</html>
